@@ -1,0 +1,10 @@
+name: "Hello World Action"
+description: "A Action that prints Hello World"
+author: "Willie Daniel Wortel"
+
+runs:
+  using: "composite"
+  steps:
+    - name: Print Hello World
+      shell: bash
+      run: echo "Hello World"
